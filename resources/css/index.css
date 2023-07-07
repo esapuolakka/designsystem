@@ -30,18 +30,18 @@ h2 {
     margin: 8px;
 }
 
-#coolblue {
-    background-color: #2d5dcc;
+#royalblue {
+    background-color: #4169E1;
     color: white;
 }
-#pink {
-    background-color: #d957d9;
+#rose {
+    background-color: #FFE4E1;
 }
-#mintgreen {
-    background-color: #4fe0b0;
+#darkseagreen {
+    background-color: #8FBC8B;
 }
-#beige {
-    background-color: #efd9ca;
+#peru {
+    background-color: #CD853F;
 }
 #crimson {
     background-color: #DC143C;
@@ -117,4 +117,10 @@ h2 {
     content: ("*");
     vertical-align: super;
     color: black;
+}
+footer {
+    font-size: 12px;
+    border: 2px solid gray;
+    margin: 30px 130px;
+    text-align: center;
 }
