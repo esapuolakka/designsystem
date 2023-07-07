@@ -1,1 +1,1 @@
-# cassowary
+# style guide
