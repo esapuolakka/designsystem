@@ -1,0 +1,120 @@
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    color: black;
+    background-color: rgb(255, 255, 240);
+}
+
+h1 {
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.color-div {
+    border: 2px solid gray;
+    margin: 30px 130px;
+}
+h2 {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    margin-left: 8px;
+}
+
+.colors div {
+    display: inline-block;
+    height: 100px;
+    width: 350px;
+    text-align: center;
+    margin: 8px;
+}
+
+#coolblue {
+    background-color: #2d5dcc;
+    color: white;
+}
+#pink {
+    background-color: #d957d9;
+}
+#mintgreen {
+    background-color: #4fe0b0;
+}
+#beige {
+    background-color: #efd9ca;
+}
+#crimson {
+    background-color: #DC143C;
+    color: white;
+}
+#indigo {
+    background-color: #4B0082;
+    color: white;
+}
+
+.font-div {
+    border: 2px solid gray;
+    margin: 30px 130px;
+}
+
+.fonts {
+    font-size: 20px;
+}
+.font-header {
+    font-size: 24px;
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.ubuntu {
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    display: inline-block;
+    height: 200px;
+    width: 360px;
+    padding: 10px 50px 10px 10px;
+}
+.nunito {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    position: relative;
+    top: auto;
+    bottom: 8px;
+    line-height: 1;
+    display: inline-block;
+    height: 200px;
+    width: 360px;
+    padding: 10px 50px 10px 10px;
+}
+.lato {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    height: 200px;
+    width: 360px;
+    padding: 10px 50px 10px 10px;
+}
+
+.text-div {
+    border: 2px solid gray;
+    margin: 30px 130px;
+}
+
+.text-div h1 {
+    margin-left: 10px;
+}
+.text-div p {
+    margin-left: 10px;
+}
+#bgcolor {
+    font-size: 14px;
+    margin-left: 130px;
+}
+#bgcolor p::before {
+    content: ("*");
+    vertical-align: super;
+    color: black;
+}
